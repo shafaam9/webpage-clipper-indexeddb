@@ -88,6 +88,29 @@
       padding-top: 10px;
     }
     
+    .clip-metadata {
+      display: flex;
+      gap: 12px;
+      margin: 8px 0;
+      color: #666;
+      font-size: 0.9em;
+    }
+    
+    .word-count, .reading-time {
+      display: flex;
+      align-items: center;
+    }
+    
+    .word-count::before {
+      content: "📝";
+      margin-right: 4px;
+    }
+    
+    .reading-time::before {
+      content: "⏱️";
+      margin-right: 4px;
+    }
+    
     .delete-btn {
       position: absolute;
       top: 12px;
